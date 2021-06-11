@@ -1,0 +1,48 @@
+@import 'responsive.sсss';
+
+.userguide {
+	padding-top: 48px;
+	padding-bottom: 105px;
+	&__title {
+		font-size: 36px;
+		line-height: 1;
+		color: #4a4a4a;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding-bottom: 52px;
+	}
+
+	&__content {
+		h3 {
+			font-size: 16px;
+			line-height: 1.2;
+			padding-bottom: 15px;
+		}
+
+		p {
+		}
+
+		ul {
+    		margin: 1em 0;
+    		li {
+    			list-style-type: disc;
+				list-style-position: inside;
+				line-height: 1.7;
+				margin-bottom: 5px;
+				padding-left: 20px;
+    		}				
+    	}
+
+		ol {
+			margin: 1em 0;
+			li {
+				list-style-type: decimal;
+				list-style-position: inside;
+				line-height: 1.7;
+				margin-bottom: 5px;
+				padding-left: 20px;
+			}
+		}
+	}
+
+}

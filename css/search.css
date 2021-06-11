@@ -1,0 +1,123 @@
+.search {
+	background-color: #f4f4f4;
+	padding-top: 48px;
+	padding-bottom: 65px;
+}
+
+.search__inner {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding-bottom: 43px;
+}
+
+.search__title {
+	font-size: 36px;
+	line-height: 1;
+	color: #4a4a4a;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.search__title span {
+	font-weight: 500;
+	color: #4a90e2;
+}
+
+.search__count {
+	font-size: 28px;
+	line-height: 1.1;
+	color: #ffffff;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #30537b;
+	font-weight: bold;
+	padding: 5px 12px;
+	margin-bottom: 15px;
+}
+
+.search__item {
+	display: block;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #ffffff;
+	padding: 26px;
+	margin-bottom: 20px;
+}
+
+.search__box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.search__subtitle {
+	font-size: 26px;
+	line-height: 1.3;
+	color: #4a4a4a;
+	font-weight: 500;
+	padding-bottom: 12px;
+}
+
+.search__subtitle span {
+	font-weight: 400;
+}
+
+.search__category {
+	font-size: 20px;
+	line-height: 1.8;
+	color: #9b9b9b;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+
+.search__text p {
+	font-size: 22px;
+	line-height: 1.2;
+	color: #4a4a4a;
+	font-weight: 400;
+}
+
+.search__text p span {
+	color: #4a90e2;
+}
+
+.msg-empty {
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 900;
+	padding: 0px 10px;
+	padding-bottom: 40px;
+}
+
+@media screen and (max-width: 960px) {
+
+.search__item {
+	padding: 20px;
+}
+
+}
+

@@ -1,0 +1,138 @@
+.nav-links {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.navigation {
+	position: relative;
+	max-width: 560px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	-webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+	background-color: #fff;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.navigation a,
+.navigation span {
+	text-decoration: none;
+	font-size: 22px;
+	line-height: 1.2;
+	color: #4a90e2;
+}
+
+.page-numbers {
+	cursor: pointer;
+	display: block;
+	max-width: 56px;
+	width: 100%;
+	background-color: #fff;
+	padding: 15px 4px;
+	font-weight: bold;
+	-webkit-transition: 0.3s background-color, 0.3s color;
+	-o-transition: 0.3s background-color, 0.3s color;
+	transition: 0.3s background-color, 0.3s color;
+}
+
+.page-numbers.current {
+	background-color: #4a90e2;
+	color: #fff;
+}
+
+.page-numbers:hover:not(.current) {
+	background-color: #a7cfff;
+	color: #fff;
+}
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	width: 56px;
+	height: 56px;
+	border: none;
+	outline: none;
+	padding: 0px;
+	background-color: #fff;
+}
+
+.prev:after,
+.next:after {
+	position: absolute;
+	content: ' ';
+	width: 14px;
+	height: 14px;
+	top: -webkit-calc(50% - 6px);
+	top: calc(50% - 6px);
+	left: -webkit-calc(50% - 6px);
+	left: calc(50% - 6px);
+	border-left: 3px solid #4a90e2;
+	border-top: 3px solid #4a90e2;
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transition: 0.3s border;
+	-o-transition: 0.3s border;
+	transition: 0.3s border;
+}
+
+.prev:hover:after,
+.next:hover:after {
+	border-color: #223040;
+}
+
+.prev {
+	left: 0px;
+	-webkit-border-radius: 6px 0px 0px 6px;
+	border-radius: 6px 0px 0px 6px;
+}
+
+.next {
+	right: 0px;
+	-webkit-border-radius: 6px 0px 0px 6px;
+	border-radius: 6px 0px 0px 6px;
+	-webkit-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+@media screen and (max-width: 780px) {
+
+.navigation {
+	max-width: 300px;
+}
+
+.page-numbers {
+	max-width: 30px;
+}
+
+.prev,
+.next {
+	width: 30px;
+}
+
+.prev:after,
+.next:after {
+	width: 12px;
+	height: 12px;
+	top: -webkit-calc(50% - 5px);
+	top: calc(50% - 5px);
+	left: -webkit-calc(50% - 5px);
+	left: calc(50% - 5px);
+}
+
+}
+

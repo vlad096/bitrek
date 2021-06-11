@@ -1,0 +1,83 @@
+.add-info__wrap {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+.add-info__block {
+	margin-right: 16px;
+}
+
+.add-info__price {
+	font-size: 18px;
+	line-height: 1;
+	color: #313131;
+	text-decoration: line-through;
+	padding-bottom: 7px;
+}
+
+.add-info__sale {
+	font-size: 18px;
+	color: #19caaf;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.add-info__sale span {
+	font-size: 30px;
+	line-height: 1;
+	font-weight: 900;
+}
+
+.add-info__btn {
+	font: inherit;
+	cursor: pointer;
+	display: block;
+	background-image: url(../img/icons/cart.png);
+	background-repeat: no-repeat;
+	background-position: left 25px center;
+	-webkit-background-size: 16px 16px;
+	background-size: 16px;
+	max-width: 168px;
+	width: 100%;
+	font-size: 18px;
+	line-height: 1;
+	color: #ffffff;
+	padding: 13px 15px;
+	padding-left: 60px;
+	background-color: #19caaf;
+	border: none;
+	outline: none;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	-webkit-transition: 0.3s background-color;
+	-o-transition: 0.3s background-color;
+	transition: 0.3s background-color;
+}
+
+.add-info__btn:hover {
+	background-color: #0b594d;
+}
+
+@media screen and (max-width: 780px) {
+
+.add-info__wrap {
+	display: block;
+}
+
+.add-info__sale {
+	padding-bottom: 7px;
+}
+
+}
+

@@ -1,0 +1,79 @@
+@import 'responsive.sсss';
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100vh;
+	overflow-x: hidden;
+	color: #323232;
+	background-color: #ffffff;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: normal;
+	font-style: normal;
+	font-family: "roboto";
+}
+
+* {
+	box-sizing: border-box;
+}
+
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+	
+.container {
+	max-width: 1220px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+	&--inner {
+		max-width: 1102px;
+		padding: 0px 10px;
+	}	
+
+	&--menu {
+		@include media(smx){
+			padding: 0px;
+		}
+	}
+
+	&--basket {
+		max-width: 1250px;
+		padding: 0 25px;
+	}
+
+
+}
+
+@import 'variables';
+@import 'reset';
+@import 'header';	
+@import 'footer';
+@import 'data';
+@import 'features';
+@import 'user';
+@import 'product';
+@import 'goods';
+@import 'popup';
+@import 'select';
+@import 'progress';
+@import 'stars';
+@import 'tabs';
+@import 'sale';
+@import 'call';
+@import 'compare';
+@import 'news';
+@import 'single';
+@import 'basket';
+@import 'search';
+@import 'userguide';
+@import 'info';
+@import 'pagination';

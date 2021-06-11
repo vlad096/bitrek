@@ -1,0 +1,68 @@
+.content {
+	margin-bottom: 55px;
+}
+
+.content__wrap {
+	padding-top: 5px;
+}
+
+.content__wrap p {
+	white-space: pre-line;
+	font-size: 16px;
+	line-height: 2.25;
+	color: #000000;
+	padding-bottom: 10px;
+}
+
+.content__wrap h1 {
+	font-size: 24px;
+}
+
+.content__wrap h2 {
+	font-size: 20px;
+}
+
+.content__wrap h3 {
+	font-size: 16px;
+}
+
+.content__wrap h4,
+.content__wrap h5,
+.content__wrap h5 {
+	font-size: 14px;
+}
+
+.content__wrap h1,
+.content__wrap h2,
+.content__wrap h3,
+.content__wrap h4,
+.content__wrap h5,
+.content__wrap h5 {
+	color: #000000;
+	margin: 10px 0;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.content__wrap ul,
+.content__wrap ol {
+	margin: 1em 0;
+}
+
+.content__wrap ul li,
+.content__wrap ol li {
+	list-style-position: inside;
+	line-height: 1.7;
+	color: #292929;
+	padding-left: 20px;
+	margin-bottom: 6px;
+}
+
+.content__wrap ul li {
+	list-style-type: disc;
+}
+
+.content__wrap ol li {
+	list-style-type: decimal;
+}
+

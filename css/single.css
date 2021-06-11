@@ -1,0 +1,157 @@
+.single {
+	padding-top: 48px;
+	padding-bottom: 25px;
+}
+
+.single__image {
+	min-height: 440px;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	padding: 25px 35px;
+	margin-bottom: 24px;
+}
+
+.single__image img {
+	display: block;
+}
+
+.single__title {
+	max-width: 850px;
+	width: 100%;
+	font-size: 42px;
+	line-height: 1.2;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.single__inner {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.single__author,
+.single__category,
+.single__data {
+	padding-bottom: 12px;
+}
+
+.single__author {
+	font-size: 15px;
+	color: #000000;
+	font-weight: 500;
+	padding-right: 20px;
+}
+
+.single__category,
+.single__data {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.single__category {
+	color: #d0021b;
+	padding-right: 10px;
+}
+
+.single__data {
+	color: #9b9b9b;
+}
+
+.single__content p {
+	font-size: 22px;
+	line-height: 1.2;
+	font-weight: 400;
+	color: #4a4a4a;
+	padding-bottom: 25px;
+}
+
+.single__content h1,
+.single__content h2,
+.single__content h3,
+.single__content h4,
+.single__content h5,
+.single__content h6 {
+	line-height: 1.2;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.single__content h1 {
+	font-size: 34px;
+}
+
+.single__content h2 {
+	font-size: 30px;
+}
+
+.single__content h3 {
+	font-size: 26px;
+}
+
+.single__content h4 {
+	font-size: 22px;
+}
+
+.single__content h5 {
+	font-size: 18px;
+}
+
+.single__content h6 {
+	font-size: 14px;
+}
+
+.single__content ul {
+	margin: 1em 0;
+}
+
+.single__content ul li {
+	list-style-type: disc;
+	list-style-position: inside;
+	line-height: 1.7;
+	margin-bottom: 5px;
+	padding-left: 20px;
+}
+
+.single__content ol {
+	margin: 1em 0;
+}
+
+.single__content ol li {
+	list-style-type: decimal;
+	list-style-position: inside;
+	line-height: 1.7;
+	margin-bottom: 5px;
+	padding-left: 20px;
+}
+
+@media screen and (max-width: 960px) {
+
+.single__image {
+	padding: 25px 20px;
+}
+
+.single__title {
+	font-size: 28px;
+}
+
+}
+

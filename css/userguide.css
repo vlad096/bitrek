@@ -1,0 +1,44 @@
+.userguide {
+	padding-top: 48px;
+	padding-bottom: 105px;
+}
+
+.userguide__title {
+	font-size: 36px;
+	line-height: 1;
+	color: #4a4a4a;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 52px;
+}
+
+.userguide__content h3 {
+	font-size: 16px;
+	line-height: 1.2;
+	padding-bottom: 15px;
+}
+
+.userguide__content ul {
+	margin: 1em 0;
+}
+
+.userguide__content ul li {
+	list-style-type: disc;
+	list-style-position: inside;
+	line-height: 1.7;
+	margin-bottom: 5px;
+	padding-left: 20px;
+}
+
+.userguide__content ol {
+	margin: 1em 0;
+}
+
+.userguide__content ol li {
+	list-style-type: decimal;
+	list-style-position: inside;
+	line-height: 1.7;
+	margin-bottom: 5px;
+	padding-left: 20px;
+}
+

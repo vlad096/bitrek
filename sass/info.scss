@@ -1,0 +1,67 @@
+@import 'responsive.sсss';
+
+.info {
+	padding-top: 48px;
+	padding-bottom: 115px;
+	&__title {
+		font-size: 36px;
+		line-height: 1;
+		color: #4a4a4a;
+		font-weight: normal;
+		text-transform: uppercase;
+		padding-bottom: 52px;
+		span {
+			color: #a7a7a7;
+		}
+	}
+
+	&__text {
+		max-width: 845px;
+		padding-bottom: 60px;
+		margin-left: 68px;
+		@include media(md) {
+			padding-bottom: 50px;
+			margin-left: 30px;
+		}
+		@include media(sm) {
+			padding-bottom: 40px;
+			margin-left: 15px;
+		}
+		p {
+			font-size: 15px;
+			line-height: 1.2;
+			color: #4a4a4a;
+			font-family: helvetica-neue;
+			font-weight: normal;
+			span {
+				color: #0091ff;
+				font-weight: bold;
+			}
+		}
+	}
+
+	&__btn {
+		display: block;
+		cursor: pointer;
+		font: inherit;
+		max-width: 357px;
+		width: 100%;
+		font-family: Roboto;
+		font-size: 22px;
+		line-height: 1.2;
+		border: none;
+		outline: none;
+		border-radius: 6px;
+		background-color: #7ed321;
+		color: #ffffff;
+		text-transform: uppercase;
+		text-align: center;
+		box-shadow: 0 2px 32px rgba(58, 255, 11, 0.46);
+		padding: 19px 8px;
+		font-weight: bold;
+		transition: 0.3s background-color;
+		&:hover {
+			background-color: #35590e;
+		}
+	}
+}
